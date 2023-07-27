@@ -19,6 +19,7 @@
 		B55EFFD22A7262D600F45E13 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD12A7262D600F45E13 /* Presenter.swift */; };
 		B55EFFD42A7262E100F45E13 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD32A7262E100F45E13 /* Entity.swift */; };
 		B55EFFD62A7262F200F45E13 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD52A7262F200F45E13 /* Router.swift */; };
+		B55EFFD82A72769A00F45E13 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD72A72769A00F45E13 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B55EFFD12A7262D600F45E13 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		B55EFFD32A7262E100F45E13 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		B55EFFD52A7262F200F45E13 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B55EFFD72A72769A00F45E13 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				B55EFFA52A72625200F45E13 /* Assets.xcassets */,
 				B55EFFA72A72625200F45E13 /* LaunchScreen.storyboard */,
 				B55EFFAA2A72625200F45E13 /* Info.plist */,
+				B55EFFD72A72769A00F45E13 /* Environment.swift */,
 			);
 			path = mockViperProj;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55EFFD62A7262F200F45E13 /* Router.swift in Sources */,
+				B55EFFD82A72769A00F45E13 /* Environment.swift in Sources */,
 				B55EFFD22A7262D600F45E13 /* Presenter.swift in Sources */,
 				B55EFFCE2A7262C600F45E13 /* View.swift in Sources */,
 				B55EFFD42A7262E100F45E13 /* Entity.swift in Sources */,
@@ -454,7 +458,6 @@
 				INFOPLIST_FILE = mockViperProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +485,6 @@
 				INFOPLIST_FILE = mockViperProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
