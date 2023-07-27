@@ -7,22 +7,6 @@
 
 import Foundation
 
-
-//Object
-//protocol
-//ref to interactor, router, view
-
-enum FetchingError: Error {
-    case failed 
-}
-
-protocol AnyPresenter {
-    var router: AnyRouter? { get set }
-    var interactor: AnyInteractor? { get set }
-    var view: AnyView? { get set }
-    
-}
-
 protocol UserPresenterProtocol: AnyPresenter {
     func interactorDidFetchUsers(with result: Result<[User], Error>)
 }
@@ -31,7 +15,7 @@ class UserPresenter: UserPresenterProtocol {
     var router: AnyRouter?
     var interactor: AnyInteractor? {
         didSet {
-            if let interactor = interactor as? UserInteractor {
+            if let interactor = interactor as? UserInteractorProtocol {
                 interactor.getUsers()
             }
         }

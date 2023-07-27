@@ -8,21 +8,12 @@
 import Foundation
 import UIKit
 
-// Object
-// Entry point
-
-typealias EntryPoint = AnyView & UIViewController
-
-protocol AnyRouter {
-    var entry: EntryPoint? { get }
-    
-    static func start() -> AnyRouter
-}
-
 class UserRouter: AnyRouter {
+    var navController: UINavigationController?
+    
     var entry: EntryPoint?
     
-    static func start() -> AnyRouter {
+    static func build(with userId: Int? = nil) -> AnyRouter {
         let router = UserRouter()
         
         // Assign VIP
@@ -42,5 +33,15 @@ class UserRouter: AnyRouter {
         return router
     }
     
-     
+    func route(to destionation: Module) {
+        switch destionation {
+        case .DetailModule(let userId):
+            let detailRouter = DetailRouter.build(with: userId)
+            guard let vc = detailRouter.entry else { return }
+            navController?.pushViewController(vc, animated: true)
+//            router = detailRouter
+        default:
+            break
+        }
+    }
 }

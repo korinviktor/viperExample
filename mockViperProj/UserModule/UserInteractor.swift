@@ -7,14 +7,6 @@
 
 import Foundation
 
-//object
-//protocol
-//ref to presenter
-
-protocol AnyInteractor {
-    var presenter: AnyPresenter? { get set }
-}
-
 protocol UserInteractorProtocol: AnyInteractor {
     func getUsers()
 }
@@ -23,8 +15,9 @@ class UserInteractor: UserInteractorProtocol {
     var presenter: AnyPresenter?
     
     func getUsers() {
-        guard let url = URL(string: EnvironmentUrl.usersUrl),
-            let presenter = presenter as? UserPresenterProtocol
+        guard let root = URL(string: Environment.apiURL),
+              let url = URL(string: "users", relativeTo: root),
+              let presenter = presenter as? UserPresenterProtocol
         else { return }
         
         let req = URLRequest(url: url)

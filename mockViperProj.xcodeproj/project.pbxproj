@@ -14,12 +14,22 @@
 		B55EFFB42A72625200F45E13 /* mockViperProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFB32A72625200F45E13 /* mockViperProjTests.swift */; };
 		B55EFFBE2A72625200F45E13 /* mockViperProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFBD2A72625200F45E13 /* mockViperProjUITests.swift */; };
 		B55EFFC02A72625200F45E13 /* mockViperProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFBF2A72625200F45E13 /* mockViperProjUITestsLaunchTests.swift */; };
-		B55EFFCE2A7262C600F45E13 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFCD2A7262C600F45E13 /* View.swift */; };
-		B55EFFD02A7262D000F45E13 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFCF2A7262D000F45E13 /* Interactor.swift */; };
-		B55EFFD22A7262D600F45E13 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD12A7262D600F45E13 /* Presenter.swift */; };
-		B55EFFD42A7262E100F45E13 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD32A7262E100F45E13 /* Entity.swift */; };
-		B55EFFD62A7262F200F45E13 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD52A7262F200F45E13 /* Router.swift */; };
+		B55EFFCE2A7262C600F45E13 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFCD2A7262C600F45E13 /* UserView.swift */; };
+		B55EFFD02A7262D000F45E13 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFCF2A7262D000F45E13 /* UserInteractor.swift */; };
+		B55EFFD22A7262D600F45E13 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD12A7262D600F45E13 /* UserPresenter.swift */; };
+		B55EFFD42A7262E100F45E13 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD32A7262E100F45E13 /* UserEntity.swift */; };
+		B55EFFD62A7262F200F45E13 /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD52A7262F200F45E13 /* UserRouter.swift */; };
 		B55EFFD82A72769A00F45E13 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFD72A72769A00F45E13 /* Environment.swift */; };
+		B55EFFE62A728FB700F45E13 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFE52A728FB700F45E13 /* ViewProtocol.swift */; };
+		B55EFFE82A728FC000F45E13 /* InteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFE72A728FC000F45E13 /* InteractorProtocol.swift */; };
+		B55EFFEA2A728FC500F45E13 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFE92A728FC500F45E13 /* PresenterProtocol.swift */; };
+		B55EFFEE2A728FD300F45E13 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFED2A728FD300F45E13 /* RouterProtocol.swift */; };
+		B55EFFF02A72905500F45E13 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFEF2A72905500F45E13 /* DetailView.swift */; };
+		B55EFFF22A72905F00F45E13 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFF12A72905F00F45E13 /* DetailInteractor.swift */; };
+		B55EFFF42A72906400F45E13 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFF32A72906400F45E13 /* DetailPresenter.swift */; };
+		B55EFFF62A72906C00F45E13 /* DetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFF52A72906C00F45E13 /* DetailEntity.swift */; };
+		B55EFFF82A72907100F45E13 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFF72A72907100F45E13 /* DetailRouter.swift */; };
+		B55EFFFC2A729AE000F45E13 /* Modules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55EFFFB2A729AE000F45E13 /* Modules.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +61,22 @@
 		B55EFFB92A72625200F45E13 /* mockViperProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockViperProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55EFFBD2A72625200F45E13 /* mockViperProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockViperProjUITests.swift; sourceTree = "<group>"; };
 		B55EFFBF2A72625200F45E13 /* mockViperProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockViperProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B55EFFCD2A7262C600F45E13 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		B55EFFCF2A7262D000F45E13 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		B55EFFD12A7262D600F45E13 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		B55EFFD32A7262E100F45E13 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		B55EFFD52A7262F200F45E13 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B55EFFCD2A7262C600F45E13 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		B55EFFCF2A7262D000F45E13 /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		B55EFFD12A7262D600F45E13 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		B55EFFD32A7262E100F45E13 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		B55EFFD52A7262F200F45E13 /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
 		B55EFFD72A72769A00F45E13 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B55EFFE52A728FB700F45E13 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		B55EFFE72A728FC000F45E13 /* InteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorProtocol.swift; sourceTree = "<group>"; };
+		B55EFFE92A728FC500F45E13 /* PresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
+		B55EFFED2A728FD300F45E13 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		B55EFFEF2A72905500F45E13 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B55EFFF12A72905F00F45E13 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		B55EFFF32A72906400F45E13 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		B55EFFF52A72906C00F45E13 /* DetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEntity.swift; sourceTree = "<group>"; };
+		B55EFFF72A72907100F45E13 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		B55EFFFB2A729AE000F45E13 /* Modules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modules.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +127,16 @@
 		B55EFF9B2A72625100F45E13 /* mockViperProj */ = {
 			isa = PBXGroup;
 			children = (
-				B55EFFCC2A7262B400F45E13 /* VIPER */,
+				B55EFFCC2A7262B400F45E13 /* UserModule */,
+				B55EFFD92A728F4E00F45E13 /* DetailModule */,
+				B55EFFE42A728FA500F45E13 /* Protocols */,
 				B55EFF9C2A72625100F45E13 /* AppDelegate.swift */,
 				B55EFF9E2A72625100F45E13 /* SceneDelegate.swift */,
 				B55EFFA52A72625200F45E13 /* Assets.xcassets */,
 				B55EFFA72A72625200F45E13 /* LaunchScreen.storyboard */,
 				B55EFFAA2A72625200F45E13 /* Info.plist */,
 				B55EFFD72A72769A00F45E13 /* Environment.swift */,
+				B55EFFFB2A729AE000F45E13 /* Modules.swift */,
 			);
 			path = mockViperProj;
 			sourceTree = "<group>";
@@ -135,16 +158,39 @@
 			path = mockViperProjUITests;
 			sourceTree = "<group>";
 		};
-		B55EFFCC2A7262B400F45E13 /* VIPER */ = {
+		B55EFFCC2A7262B400F45E13 /* UserModule */ = {
 			isa = PBXGroup;
 			children = (
-				B55EFFCD2A7262C600F45E13 /* View.swift */,
-				B55EFFCF2A7262D000F45E13 /* Interactor.swift */,
-				B55EFFD12A7262D600F45E13 /* Presenter.swift */,
-				B55EFFD32A7262E100F45E13 /* Entity.swift */,
-				B55EFFD52A7262F200F45E13 /* Router.swift */,
+				B55EFFCD2A7262C600F45E13 /* UserView.swift */,
+				B55EFFCF2A7262D000F45E13 /* UserInteractor.swift */,
+				B55EFFD12A7262D600F45E13 /* UserPresenter.swift */,
+				B55EFFD32A7262E100F45E13 /* UserEntity.swift */,
+				B55EFFD52A7262F200F45E13 /* UserRouter.swift */,
 			);
-			path = VIPER;
+			path = UserModule;
+			sourceTree = "<group>";
+		};
+		B55EFFD92A728F4E00F45E13 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				B55EFFEF2A72905500F45E13 /* DetailView.swift */,
+				B55EFFF12A72905F00F45E13 /* DetailInteractor.swift */,
+				B55EFFF32A72906400F45E13 /* DetailPresenter.swift */,
+				B55EFFF52A72906C00F45E13 /* DetailEntity.swift */,
+				B55EFFF72A72907100F45E13 /* DetailRouter.swift */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		B55EFFE42A728FA500F45E13 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B55EFFE52A728FB700F45E13 /* ViewProtocol.swift */,
+				B55EFFE72A728FC000F45E13 /* InteractorProtocol.swift */,
+				B55EFFE92A728FC500F45E13 /* PresenterProtocol.swift */,
+				B55EFFED2A728FD300F45E13 /* RouterProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,12 +323,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55EFFD62A7262F200F45E13 /* Router.swift in Sources */,
+				B55EFFEE2A728FD300F45E13 /* RouterProtocol.swift in Sources */,
+				B55EFFFC2A729AE000F45E13 /* Modules.swift in Sources */,
+				B55EFFD62A7262F200F45E13 /* UserRouter.swift in Sources */,
 				B55EFFD82A72769A00F45E13 /* Environment.swift in Sources */,
-				B55EFFD22A7262D600F45E13 /* Presenter.swift in Sources */,
-				B55EFFCE2A7262C600F45E13 /* View.swift in Sources */,
-				B55EFFD42A7262E100F45E13 /* Entity.swift in Sources */,
-				B55EFFD02A7262D000F45E13 /* Interactor.swift in Sources */,
+				B55EFFF02A72905500F45E13 /* DetailView.swift in Sources */,
+				B55EFFE62A728FB700F45E13 /* ViewProtocol.swift in Sources */,
+				B55EFFD22A7262D600F45E13 /* UserPresenter.swift in Sources */,
+				B55EFFF22A72905F00F45E13 /* DetailInteractor.swift in Sources */,
+				B55EFFCE2A7262C600F45E13 /* UserView.swift in Sources */,
+				B55EFFD42A7262E100F45E13 /* UserEntity.swift in Sources */,
+				B55EFFD02A7262D000F45E13 /* UserInteractor.swift in Sources */,
+				B55EFFF42A72906400F45E13 /* DetailPresenter.swift in Sources */,
+				B55EFFE82A728FC000F45E13 /* InteractorProtocol.swift in Sources */,
+				B55EFFEA2A728FC500F45E13 /* PresenterProtocol.swift in Sources */,
+				B55EFFF62A72906C00F45E13 /* DetailEntity.swift in Sources */,
+				B55EFFF82A72907100F45E13 /* DetailRouter.swift in Sources */,
 				B55EFF9D2A72625100F45E13 /* AppDelegate.swift in Sources */,
 				B55EFF9F2A72625100F45E13 /* SceneDelegate.swift in Sources */,
 			);
